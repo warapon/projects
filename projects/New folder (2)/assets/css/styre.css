@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+form {
+  background: #33CC99;
+  padding: 4em 4em 2em;
+  max-width: 400px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+}
+form h2 {
+  margin: 0 0 40px 0;
+  padding: 2px;
+  text-align: center;
+  font-size: 40px;
+  color: #FFFFFF;
+  border-bottom: solid 2px #e5e5e5;
+}
+form p {
+  margin: 0 0 3em 0;
+  position: relative;
+}
+form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  margin: 0;
+}
+form input[type="text"],
+form input[type="password"] {
+  background: none;
+  border: 1px solid #dbdbdb;
+  font-size: 1.6em;
+  padding: .8em .5em;
+  border-radius: 2px;
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  background: #FFCCCC;
+}
+form span {
+  display: block;
+  background: #F9A5A5;
+  padding: 2px 5px;
+  color: #666;
+}
+form input[type="submit"] {
+  background: rgba(148, 186, 101, 0.7);
+  box-shadow: 0 3px 0 0 rgba(123, 163, 73, 0.7);
+  border-radius: 2px;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-size: 2em;
+  line-height: 1.6em;
+  margin: 2em 0 0;
+  outline: none;
+  padding: .8em 0;
+  text-shadow: 0 1px #68B25B;
+}
+form input[type="submit"]:hover {
+  background: #FFFFFF;
+  text-shadow: 0 1px 3px rgba(70, 93, 41, 0.7);
+}
+form label {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  color: #FFFFFF;
+  font-size: 16px;
+  display: inline-block;
+  padding: 4px 10px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0);
+  -moz-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  -o-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  -webkit-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  transition: color 0.3s, top 0.3s, background-color 0.8s;
+}
+form label.floatLabel {
+  top: -30px;
+  font-size: 18px;
+}
+.select-style {
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 2px;
+    overflow: hidden;
+	color: #000000;
+    font-size: 16px;
+    
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+	
+}
+
+.select-style select:focus {
+    outline: none;
+}

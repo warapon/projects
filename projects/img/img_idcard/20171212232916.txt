@@ -1,0 +1,10 @@
+npm install
+npn update
+
+npm install bootstrap --save
+
+npm run dev
+
+npm run watch
+
+npm info version bootstrap
